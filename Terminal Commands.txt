@@ -1,0 +1,24 @@
+s                                    list
+ls -a                                list all files
+pwd                                print working directory
+mkdir                              make directory
+cd                                   change directory
+cd ..                                up one directory
+CM+K                             clear screen
+clear                               clear screen
+tab                                 auto-complete
+rmdir                              remove directory
+rm                                  remove file
+rm -r                              remove recursively (remove files inside also…)
+rm -rf                             remove with force 
+sudo                              super user do
+touch                             create file (looks for file, if none it makes a file w that name)
+mv                                 move file
+less                               view file contents
+
+Copying files
+cp lorem(name of file).text
+ Renaming or moving files
+mv copy.txt
+ cd~/                               short cut to get into the folder you want  
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form example</title>
+	<script type="text/javascript" src="jquery-2.1.3.js"> </script>
+</head>
+<body>
+	<h1>sign in below</h1>
+	<form action="/" method="POST">
+		<form action="/" method="POST">
+		<label type="text" for="Username"> 
+		<input type="text" name="Username" id="username"><br>
+		<label type="text" for="password">password</label>
+		<input type="password" for="password" id="password">
+		<input type="submit" value"log in!">
+	</form>
+	<script type="text/javascript">
+	$("form").submit(function(){
+ 		if($("#password").val() == "crazy") {
+ 			$("h1").text("Yay !!");
+ 			return false;
+ 		} else {
+ 			$("h1").text(" Who are you?");
+ 			return false;
+ 		}
+	});
+	</script>
+		
+</body>
+</html>

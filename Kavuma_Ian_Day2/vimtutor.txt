@@ -1,0 +1,7 @@
+Vim tutor
+Short cut : Command
+Esc; NormL MODE 
+:q!<Enter>: Discarding any changes
+vimtutor<Enter>
+
+https://github.com/kavian2/gitassignment

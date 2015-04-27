@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validdate</title>
+	<script type="text/javascript" src="jquery-2.1.3.js"> </script>
+</head>
+<body>
+	
+	<h1> Please enter today date in this format (MM/DD/YY) <br></h1>
+
+		<form action="/" method="POST">
+			<form action="/" method="POST">
+			<label type="text" for="date"> Date Reference</label>
+			<input type="text" name="date" id="abovedate" >
+			<input type="submit" value="click!">
+		</form>
+
+	<script type="text/javascript">
+	$("form").submit(function(){
+		var value = $("#abovedate").val();
+		var date = value.split("/");
+
+		var month = date[0];
+		console.log(month);
+		if (month > 12 || month < 1) {
+			console.log("month is incorrect")
+		}
+		var day = day[1];
+		console.log(day);
+		if (day > 31|| day< 1);
+		console.log("day is incorrect")	// if(value == '' && !isNaN(value))
+		// 	$("h1").text(" Thank you!");
+		// 	return false;
+		// } 
+ 	// 	else  {
+ 	// 		$("h1").text(" Kindly Enter Date Reference");
+ 	// 		return false;
+		// }
+		return false;
+	});
+	</script>
+		
+</body>
+</html>

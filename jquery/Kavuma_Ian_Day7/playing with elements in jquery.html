@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title> Jquery, Playing with Elements</title>
+		<script type="text/javascript" src="jquery-2.1.3.js"> </script>
+		<script type="text/javascript" src="main.js"> </script>
+		<style>
+			
+			#greencircle	{ 	width:200px ;
+						height:200px;
+						background-color:green;
+						border-radius: 100px;
+					}
+			#yellowcircle	{ 	width:300px ;
+								height:300px;
+								background-color:yellow;
+								border-radius: 150px;
+								margin-top: 20px
+					}
+			.square { 	width:200px;
+						height:200px;
+						background-color:blue;
+						margin-top: 20px
+					}
+		></style>
+	</head>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			// body...
+	
+		$("	#circle").click(function(){
+		// 	{alert
+		// ["circle clicked!"];
+		alert("circle clicked!");
+		});
+
+		$("p").click(function(){
+			$("p").fadeOut(2000);
+			// p fadeIn
+			$("p").fadeIn(2000);
+		// {alert
+		// ["circle clicked!"];
+		// }
+		$("#yellowcircle").slideDown(4000);
+		// $(".square").hover(function)[]
+		// {alert
+		// ["circle clicked!"];
+		// }
+		}
+		$(".square").animate( {
+			opacity: 0.45,
+			  width: "50%"
+		} , 5000 );
+		
+	});
+
+
+	</script>
+	<body>
+			<div>
+				<h1> This is my story </h1>	
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+			</div>
+			<div>	
+				<h2> This is your story </h2>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+			</div>
+			<div id="greencircle"></div>
+			<div id="yellowcircle"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div id="square"></div>
+	</body>
+</html>

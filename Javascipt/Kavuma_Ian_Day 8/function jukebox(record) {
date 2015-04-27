@@ -1,0 +1,20 @@
+function jukebox(record) {
+this.currentRecord = record;
+}
+This .currently playing = function (){
+console.log("the cureent record is " + this.current.Record.songDetail());
+}switchedRecord() = function(){
+ this.switchedRecord = function() {
+ console.log ("switched record");
+ };
+}
+
+function Record(){
+this.title = title;
+this.artist = artist;
+this.songDetail = function() {
+console.log(title + title +" by"+ artist + );
+};
+}
+var myRecord = new Record('thriller','Micheal Jackson');
+Var myJukebox = new Jukebox(myRecord);

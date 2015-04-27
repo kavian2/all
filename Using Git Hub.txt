@@ -1,0 +1,300 @@
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ pwd
+/c/Users/Ian/Desktop/NYCAD/k-city-hall
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git add -A
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   readme.md
+
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   readme.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git add -A
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   readme.md
+
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git commit -m 'Initial commit.'
+[master (root-commit) 351c326] Initial commit.
+ 2 files changed, 9 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 readme.md
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git remote add origin git@github.com:kavian2/kampala-city-hall.git
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git push -u origin master
+Enter passphrase for key '/c/Users/Ian/.ssh/id_rsa':
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 310 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To git@github.com:kavian2/kampala-city-hall.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git branch
+* master
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (master)
+$ git checkout -b 1-add-styling
+Switched to a new branch '1-add-styling'
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ git branch
+* 1-add-styling
+  master
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ ls
+index.html  readme.md
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ touch style.css
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ git status
+On branch 1-add-styling
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ git add -A
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ git status
+On branch 1-add-styling
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   style.css
+
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ git commit -m 'Created CSS document and added amazing styling for Uganda.'
+[1-add-styling a1288ab] Created CSS document and added amazing styling for Ugand
+a.
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 style.css
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ git push origin 1-add-styling
+Enter passphrase for key '/c/Users/Ian/.ssh/id_rsa':
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 315 bytes | 0 bytes/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To git@github.com:kavian2/kampala-city-hall.git
+ * [new branch]      1-add-styling -> 1-add-styling
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ ls
+index.html  readme.md  style.css
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ cd nycad
+sh.exe": cd: nycad: No such file or directory
+
+Ian@RESEARCH ~/Desktop/NYCAD/k-city-hall (1-add-styling)
+$ cd ..
+
+Ian@RESEARCH ~/Desktop/NYCAD (master)
+$ ls
+Collaborative Project  Day 2  Day 3  Day 4  Html  Vane  k-city-hall
+
+Ian@RESEARCH ~/Desktop/NYCAD (master)
+$ cd Vane
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane (master)
+$ git clone git@github.com:dannymorales/class5web2.git
+Cloning into 'class5web2'...
+Warning: Permanently added the RSA host key for IP address '192.30.252.131' to t
+he list of known hosts.
+Enter passphrase for key '/c/Users/Ian/.ssh/id_rsa':
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 7 (delta 1), reused 7 (delta 1), pack-reused 0
+Receiving objects: 100% (7/7), done.
+Resolving deltas: 100% (1/1), done.
+Checking connectivity... done.
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane (master)
+$ ls
+Vanenews.html  class5web2  vane.css
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane (master)
+$ cd class5web2
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (master)
+$ git pull origin master
+Enter passphrase for key '/c/Users/Ian/.ssh/id_rsa':
+Enter passphrase for key '/c/Users/Ian/.ssh/id_rsa':
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 1), reused 6 (delta 1), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From github.com:dannymorales/class5web2
+ * branch            master     -> FETCH_HEAD
+   54ddc61..2d0a8c8  master     -> origin/master
+Updating 54ddc61..2d0a8c8
+Fast-forward
+ Index.html | 9 +++++++++
+ style.css  | 0
+ 2 files changed, 9 insertions(+)
+ create mode 100644 style.css
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (master)
+$ git checkout ian
+error: pathspec 'ian' did not match any file(s) known to git.
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (master)
+$ git checkout -b ian
+Switched to a new branch 'ian'
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git pull origin master
+Warning: Permanently added the RSA host key for IP address '192.30.252.130' to t
+he list of known hosts.
+Enter passphrase for key '/c/Users/Ian/.ssh/id_rsa':
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git pull origin master
+Enter passphrase for key '/c/Users/Ian/.ssh/id_rsa':
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From github.com:dannymorales/class5web2
+ * branch            master     -> FETCH_HEAD
+   2d0a8c8..2b942ae  master     -> origin/master
+Updating 2d0a8c8..2b942ae
+Fast-forward
+ Index.html | 40 ++++++++++++++++++++++++++++++++-----
+ style.css  | 66 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 101 insertions(+), 5 deletions(-)
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git add .
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git status
+On branch ian
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Vanenews.html
+        new file:   vane.css
+
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git push origin ian
+Enter passphrase for key '/c/Users/Ian/.ssh/id_rsa':
+Total 0 (delta 0), reused 0 (delta 0)
+To git@github.com:dannymorales/class5web2.git
+   2d0a8c8..2b942ae  ian -> ian
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git commit -m "added two files"
+[ian 47e17f9] added two files
+ 2 files changed, 114 insertions(+)
+ create mode 100644 Vanenews.html
+ create mode 100644 vane.css
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git add origin ian
+fatal: pathspec 'origin' did not match any files
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git add vanenews.html
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git add vane.css
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git commit -m "added new files"
+On branch ian
+nothing to commit, working directory clean
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$ git push origin ian
+Warning: Permanently added the RSA host key for IP address '192.30.252.128' to t
+he list of known hosts.
+Enter passphrase for key '/c/Users/Ian/.ssh/id_rsa':
+Counting objects: 7, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.28 KiB | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To git@github.com:dannymorales/class5web2.git
+   2b942ae..47e17f9  ian -> ian
+
+Ian@RESEARCH ~/Desktop/NYCAD/Vane/class5web2 (ian)
+$

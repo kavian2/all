@@ -1,0 +1,300 @@
+
+Ian@RESEARCH ~/Desktop (master)
+$ cd ../
+
+Ian@RESEARCH ~ (master)
+$ ls
+AppData
+Application Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Index.html
+Links
+Local Settings
+Multimedia.html
+Music
+My Documents
+NTUSER.DAT
+NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TM.blf
+NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TMContainer00000000000000000001
+.regtrans-ms
+NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TMContainer00000000000000000002
+.regtrans-ms
+NetHood
+Pictures
+PrintHood
+README.md
+Recent
+Saved Games
+Searches
+SendTo
+Start Menu
+Templates
+Vanenews.html
+Videos
+class5web2
+example
+images
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+ntuser.pol
+pc-client.properties
+project
+project_one
+restart
+style.css
+style2.css
+style3.css
+stylecopy.css
+vane.css
+wc
+wdi
+
+Ian@RESEARCH ~ (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitconfig
+        .ssh/
+        .swfinfo
+        .uc-254bbcdea0dd2d8d60cca2d1dee25049.ian.research.tmp
+        AppData/
+        Contacts/
+        Desktop/Assignment/
+        Desktop/Books/
+        Desktop/Brightstarr/
+        Desktop/My Websites/
+        Desktop/NYCAD/Html/
+        Desktop/NYCAD/Javascipt/
+        Desktop/NYCAD/Terminal Commands.txt
+        Desktop/NYCAD/Using Git Hub.txt
+        Desktop/NYCAD/Vane/
+        Desktop/NYCAD/jquery/
+        Desktop/NYCAD/vimtutor.txt
+        Desktop/Pictures/
+        Desktop/Resumes/
+        Desktop/SQL2012_SetUP/
+        Desktop/Template British Embassy/
+        Desktop/desktop.ini
+        Desktop/~$empaka Resume (1).doc
+        Desktop/~$ightStarr Qualitative Research.docx
+        Desktop/~$lt Creole.docx
+        Desktop/~$n Kavuma affidavit.docx
+        Desktop/~$search Work.docx
+        Desktop/~$ver Letter.docx
+        Documents/
+        Downloads/
+        Favorites/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TM.blf
+        NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TMContainer000000000000
+00000001.regtrans-ms
+        NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TMContainer000000000000
+00000002.regtrans-ms
+        Pictures/
+        Saved Games/
+        Searches/
+        Videos/
+        example/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        ntuser.pol
+        pc-client.properties
+        restart/
+        wc/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ian@RESEARCH ~ (master)
+$ rm -rf .gi
+.git/       .gitconfig
+
+Ian@RESEARCH ~ (master)
+$ rm -rf .git/
+
+Ian@RESEARCH ~
+$ ls
+AppData
+Application Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Index.html
+Links
+Local Settings
+Multimedia.html
+Music
+My Documents
+NTUSER.DAT
+NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TM.blf
+NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TMContainer00000000000000000001
+.regtrans-ms
+NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TMContainer00000000000000000002
+.regtrans-ms
+NetHood
+Pictures
+PrintHood
+README.md
+Recent
+Saved Games
+Searches
+SendTo
+Start Menu
+Templates
+Vanenews.html
+Videos
+class5web2
+example
+images
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+ntuser.pol
+pc-client.properties
+project
+project_one
+restart
+style.css
+style2.css
+style3.css
+stylecopy.css
+vane.css
+wc
+wdi
+
+Ian@RESEARCH ~
+$ ls
+AppData
+Application Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Index.html
+Links
+Local Settings
+Multimedia.html
+Music
+My Documents
+NTUSER.DAT
+NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TM.blf
+NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TMContainer00000000000000000001
+.regtrans-ms
+NTUSER.DAT{ef2bc4c2-d686-11e1-aed0-782bcb39b999}.TMContainer00000000000000000002
+.regtrans-ms
+NetHood
+Pictures
+PrintHood
+README.md
+Recent
+Saved Games
+Searches
+SendTo
+Start Menu
+Templates
+Vanenews.html
+Videos
+class5web2
+example
+images
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+ntuser.pol
+pc-client.properties
+project
+project_one
+restart
+style.css
+style2.css
+style3.css
+stylecopy.css
+vane.css
+wc
+wdi
+
+Ian@RESEARCH ~
+$ cd Desktop
+
+Ian@RESEARCH ~/Desktop
+$ cd ~/Desktop/
+Assignment/                            Template British Embassy/
+Books/                                 desktop.ini
+Brightstarr/                           ~$empaka Resume (1).doc
+My Websites/                           ~$ightStarr Qualitative Research.docx
+NYCAD/                                 ~$lt Creole.docx
+Pictures/                              ~$n Kavuma affidavit.docx
+Resumes/                               ~$search Work.docx
+SQL2012_SetUP/                         ~$ver Letter.docx
+
+Ian@RESEARCH ~/Desktop
+$ cd ~/Desktop/NYCAD/
+Html/                  Using Git Hub.txt      jquery/
+Javascipt/             Vane/                  vimtutor.txt
+Terminal Commands.txt  WWW/
+
+Ian@RESEARCH ~/Desktop
+$ cd ~/Desktop/NYCAD/
+Html/                  Using Git Hub.txt      jquery/
+Javascipt/             Vane/                  vimtutor.txt
+Terminal Commands.txt  WWW/
+
+Ian@RESEARCH ~/Desktop
+$ cd ~/Desktop/NYCAD/WWW/
+CSS/       IMAGE/     NYCDANEWS/
+
+Ian@RESEARCH ~/Desktop
+$ cd ~/Desktop/NYCAD/WWW/
+
+Ian@RESEARCH ~/Desktop/NYCAD/WWW
+$ git init
+Initialized empty Git repository in c:/Users/Ian/Desktop/NYCAD/WWW/.git/
+
+Ian@RESEARCH ~/Desktop/NYCAD/WWW (master)
+$ git add -A
+
+Ian@RESEARCH ~/Desktop/NYCAD/WWW (master)
+$ git commit -m " creating for git assignment"
+[master (root-commit) 8b304a0]  creating for git assignment
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 CSS/mystyle.css
+ create mode 100644 NYCDANEWS/index.html
+
+Ian@RESEARCH ~/Desktop/NYCAD/WWW (master)
+$ git remote add origin git@github.com:kavian2/gitassignment.git
+
+Ian@RESEARCH ~/Desktop/NYCAD/WWW (master)
+$ git push -u origin master
+Enter passphrase for key '/c/Users/Ian/.ssh/id_rsa':
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 344 bytes | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To git@github.com:kavian2/gitassignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Ian@RESEARCH ~/Desktop/NYCAD/WWW (master)
+$
